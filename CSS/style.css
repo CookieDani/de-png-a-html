@@ -1,0 +1,216 @@
+body{
+  margin: 0;
+}
+
+header{
+  background: rgb(38,59,70);
+  position: relative;
+  height: 53px;
+}
+
+p, hr,  .subtitulo{
+  font-family: "Crimson Text";
+  font-size: 15px;
+  color:rgb(120,120,120);
+}
+
+h1, h3{
+  font-family: "Montserrat";
+  color:rgb(81,81,81)
+}
+
+h3{
+  font-size: 20px;
+}
+.portada{
+  background: rgb(239,239,239);
+  height: 610px
+}
+.contenedor{
+  margin: auto;
+  width: 1000px;
+  position: relative;
+}
+
+.contenedortitulo{
+  margin: 23px;
+}
+
+.contenedorblogs{
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a, .boton{
+  font-family: "Crimson Text";
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.boton{
+  background: rgb(255, 69, 71);
+  font-size: 15px;
+  padding: 6px 15px;
+  border-radius: 4px;
+  position: relative;
+  bottom: 6px;
+  right: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: rgb(213,35,47);
+  border-width: 3px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.boton:hover{
+  /*background: rgb(145, 199, 85);
+  border-bottom-color: rgb(103,165,61)*/
+  background: rgb(118, 205, 89);
+  border-bottom-color: rgb(76, 171, 65);
+}
+
+
+.menu .needborder{
+  border-right: 1px solid white;
+}
+
+.menu a{
+  padding: 0 17px;
+}
+
+header img{
+  margin: 12px 10px;
+}
+
+.menu{
+  display: inline-block;
+}
+
+.menu ul{
+  padding-left: 0;
+  font-size: 17px;
+  padding: 0;
+}
+
+.botonera{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: -17px;
+}
+.menu li{
+  display: inline-block;
+  border-top: 4px solid rgb(38,59,70);
+  padding: 13px 0;
+}
+
+.menu li:hover{
+  border-top: 4px solid rgb(118, 205, 89);
+}
+
+.buscador{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 207px;
+  position: relative;
+  left: 794px;
+}
+
+.buscador input{
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  font-size: 13px;
+  color: grey;
+}
+
+.buscador .busca{
+  padding: 0px;
+  background: black;
+  width: 37px;
+  height: 37px;
+  display:block;
+  border-radius: 5px;
+}
+
+.busca a{
+  cursor: pointer;
+}
+
+.tituloprincipal{
+  display: inline-block;
+  width: 528px;
+  height: 188px;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  background: rgba(255,255,255,0.8);
+}
+
+.tituloprincipal h1{
+  font-size: 26px;
+}
+
+.tituloprincipal img{
+  height: 35px;
+  border-radius: 50%;
+}
+.subt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usuario{
+  display: flex;
+  justify-content: space-between;
+  width: 442px;
+}
+
+.bloguerio{
+  margin-top: 30px;
+}
+
+.usu{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.blog{
+  width: 318px;
+}
+
+.blog h3{
+  margin-top: 8px;
+  margin-bottom: 27px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+footer p, footer button, span{
+  font-family: "Lato";
+  font-size: 15px;
+  color :rgb(81,81,81);
+  margin: 0 8px;
+}
+
+.botonfinal{
+  height: 36px;
+  width: 32px;
+}
+
+.botonmover{
+  height: 36px;
+}
